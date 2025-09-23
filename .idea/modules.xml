@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TinyArgs.iml" filepath="$PROJECT_DIR$/.idea/TinyArgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tinyargs.iml" filepath="$PROJECT_DIR$/.idea/tinyargs.iml" />
     </modules>
   </component>
 </project>

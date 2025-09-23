@@ -1,5 +1,5 @@
 """
-TinyArgs - Ultra-light command-line argument grabber for quick scripts.
+tinyargs - Ultra-light command-line argument grabber for quick scripts.
 
 Public API:
     - get()   -> fetch a single argument by key
