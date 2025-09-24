@@ -12,4 +12,4 @@ from .core import get, flag, args, TinyArgsError
 
 __all__ = ["get", "flag", "args", "TinyArgsError"]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

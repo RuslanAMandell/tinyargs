@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tinyargs"
-version = "0.1.0"
+version = "0.1.1"
 description = "Ultra-light command-line argument grabber for quick scripts"
 readme = "README.md"
 requires-python = ">=3.9"
