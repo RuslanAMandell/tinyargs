@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="027855e3-6195-4545-99bc-d8125b1565d2" name="Changes" comment="refactor(core): organize helpers, add type hints, and improve validation&#10;&#10;- Added dedicated helpers: _is_long_flag, _has_equal, _split_kv, _next_is_value&#10;- Added _has_real_value, _cast_bool for better missing-value handling&#10;- Improved bool casting (accepts common literals like true/false, yes/no, 1/0)&#10;- args() now mirrors get() validation (raises on present-but-valueless args)&#10;- Sorted imports, added type hints, and clarified docstrings&#10;- Ensures consistent error messages (TinyArgsError) across API">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyargs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tinyargs/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="027855e3-6195-4545-99bc-d8125b1565d2" name="Changes" comment="chore(release): bump version to 0.1.1&#10;&#10;- Fixed required arg bug where '--key' with no value was treated as True&#10;- Improved get() and args() validation with _has_real_value helper&#10;- Added stricter bool casting via _cast_bool&#10;- Refactored helpers for clarity and consistency" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +247,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758592166110</updated>
-      <workItem from="1758592167124" duration="10303000" />
+      <workItem from="1758592167124" duration="10725000" />
     </task>
     <task id="LOCAL-00001" summary="Initial release">
       <option name="closed" value="true" />
@@ -285,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758750669347</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore(release): bump version to 0.1.1&#10;&#10;- Fixed required arg bug where '--key' with no value was treated as True&#10;- Improved get() and args() validation with _has_real_value helper&#10;- Added stricter bool casting via _cast_bool&#10;- Refactored helpers for clarity and consistency">
+      <option name="closed" value="true" />
+      <created>1758751558348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758751558348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +300,8 @@
     <MESSAGE value="Basic Test Cases Added" />
     <MESSAGE value="docs: add README and LICENSE files" />
     <MESSAGE value="refactor(core): organize helpers, add type hints, and improve validation&#10;&#10;- Added dedicated helpers: _is_long_flag, _has_equal, _split_kv, _next_is_value&#10;- Added _has_real_value, _cast_bool for better missing-value handling&#10;- Improved bool casting (accepts common literals like true/false, yes/no, 1/0)&#10;- args() now mirrors get() validation (raises on present-but-valueless args)&#10;- Sorted imports, added type hints, and clarified docstrings&#10;- Ensures consistent error messages (TinyArgsError) across API" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(core): organize helpers, add type hints, and improve validation&#10;&#10;- Added dedicated helpers: _is_long_flag, _has_equal, _split_kv, _next_is_value&#10;- Added _has_real_value, _cast_bool for better missing-value handling&#10;- Improved bool casting (accepts common literals like true/false, yes/no, 1/0)&#10;- args() now mirrors get() validation (raises on present-but-valueless args)&#10;- Sorted imports, added type hints, and clarified docstrings&#10;- Ensures consistent error messages (TinyArgsError) across API" />
+    <MESSAGE value="chore(release): bump version to 0.1.1&#10;&#10;- Fixed required arg bug where '--key' with no value was treated as True&#10;- Improved get() and args() validation with _has_real_value helper&#10;- Added stricter bool casting via _cast_bool&#10;- Refactored helpers for clarity and consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(release): bump version to 0.1.1&#10;&#10;- Fixed required arg bug where '--key' with no value was treated as True&#10;- Improved get() and args() validation with _has_real_value helper&#10;- Added stricter bool casting via _cast_bool&#10;- Refactored helpers for clarity and consistency" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tinyargs$python_script_py___host_0_0_0_0___port_8080___api_key_secret.coverage" NAME="python script.py --host 0.0.0.0 --port=8080 --api-key secret Coverage Results" MODIFIED="1758739069681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
